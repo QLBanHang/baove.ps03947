@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: baoveps03947
+  host: baoveps03947
+  disk_quota: 1024M
+  services:
+  - baoveps03947-cloudantNoSQLDB
